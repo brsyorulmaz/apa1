@@ -1,0 +1,169 @@
+/* NAVBAR */
+
+#mainNav{
+    padding: 0px 0px 0px 0px;
+    display: block;
+    position: relative;
+}
+
+.navbar-toggler{
+    color: white;
+    background-color: #1671D9;
+    font-size: 0.9rem;
+}
+#navbar-div{
+    background-color: white;
+    padding: 1.5% 15% 1% 15%;
+    border-bottom: 3px solid white;
+    box-shadow: 0px 1px 5px rgb(153, 153, 153) ;
+}
+
+.navbar-h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+#navbar-brand-a:hover{
+    color: #1671D9;
+}
+
+.navbar-icon{
+    color: #1671D9;
+
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-right: 15px;
+    padding-right: 5%;
+}
+
+.navbar-links{
+    color: #1671D9;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+
+
+/* HEADER PART */
+
+.header-contaniner{
+    background-color: #eeeeee;
+    padding: 10% 15% 10% 15%;
+}
+.header-h2{
+    color: #0f498b;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#header-p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    font-family: "Montserrat"; 
+    font-weight: 500;
+}
+
+.btn-container{
+margin-top: 13%;
+text-align: center;
+}
+
+.header-btn{
+    font-size: 1.5rem;
+}
+.header-btns{
+
+    margin-right: 2rem;
+}
+
+
+/* HOW IT WORKS SECTION */
+
+#how-it-works-section{
+    background-color: white;
+    text-align: left;
+    padding: 10% 15% 10% 15%;
+}
+
+#how-it-h2{
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #0275d8;
+    padding-bottom: 2rem;
+
+}
+
+#how-it-p{
+vertical-align: auto;
+    font-family: "Montserrat"; 
+    font-size: 1.2rem;
+}
+
+
+/* PLANS */
+
+#plans{
+    background-color: #1671D9;
+    padding: 10% 15% 10% 15%;
+}
+
+.card{
+    text-align: center;
+}
+
+@media (max-width: 576px){
+
+#navbar-div{
+    padding: 1.5% 10% 1% 10%;
+
+}
+.navbar-h1{
+    font-size: 1.7rem;
+}
+
+.header-contaniner{
+    padding: 10% 10% 10% 10%;
+
+}
+
+
+.header-h2{
+    font-size: 2.6rem;
+    text-align: left;
+    margin-bottom: 1.8rem;
+}
+
+#header-p{
+    font-size: 1.3rem;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.header-btns{
+    margin-bottom: 1.5rem;
+}   
+    
+#how-it-works-section{
+    text-align: center;
+    padding: 10% 10% 10% 10%;
+}
+
+.card{
+    margin-bottom: 2rem;
+}
+
+#plans{
+    padding: 10% 10% 10% 10%;
+}
+
+}
